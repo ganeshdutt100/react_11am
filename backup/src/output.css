@@ -224,6 +224,9 @@
   .flex-col-reverse {
     flex-direction: column-reverse;
   }
+  .flex-row {
+    flex-direction: row;
+  }
   .items-center {
     align-items: center;
   }
@@ -283,6 +286,11 @@
   }
   .sm\:flex-row {
     @media (width >= 40rem) {
+      flex-direction: row;
+    }
+  }
+  .md\:flex-row {
+    @media (width >= 48rem) {
       flex-direction: row;
     }
   }
