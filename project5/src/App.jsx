@@ -14,7 +14,7 @@ function App() {
       {/* <UseState /> */}
       {/* <UseEffect /> */}
       {/* <Timer /> */}
-      <GithubUser />
+      {/* <GithubUser /> */}
     </>
   );
 }
