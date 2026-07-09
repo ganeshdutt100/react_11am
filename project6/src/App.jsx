@@ -5,6 +5,8 @@ import heroImg from "./assets/hero.png";
 
 import "./App.css";
 import Notepad from "./components/Notepad";
+import PropsDrilling from "./pages/PropsDrilling";
+import ContaxtData from "./pages/ContextData";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -12,7 +14,9 @@ function App() {
   return (
     <>
       {/* <UseRef /> */}
-      <Notepad />
+      {/* <Notepad /> */}
+      {/* <PropsDrilling /> */}
+      <ContaxtData />
     </>
   );
 }
