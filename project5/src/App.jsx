@@ -12,7 +12,7 @@ function App() {
     <>
       {/* <TodoList /> */}
       {/* <UseState /> */}
-      {/* <UseEffect /> */}
+      <UseEffect />
       {/* <Timer /> */}
       {/* <GithubUser /> */}
     </>

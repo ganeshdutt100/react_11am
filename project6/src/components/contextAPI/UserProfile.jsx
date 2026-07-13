@@ -3,6 +3,9 @@ import { UserContext } from "./UserContext";
 
 const UserProfile = () => {
   const user = useContext(UserContext);
+  if (!user) {
+    return <p> user not found</p>;
+  }
   return (
     <div>
       <h2>UserProfile</h2>

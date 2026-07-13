@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { UserContext } from "../components/contextAPI/UserContext";
-import Navbar from "../components/propsDrilling/Navbar";
+import Navbar from "../components/contextAPI/Navbar";
 
 const ContextData = () => {
   const [user, setUser] = useState({
