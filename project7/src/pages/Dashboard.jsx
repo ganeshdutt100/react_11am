@@ -42,14 +42,22 @@ const Dashboard = () => {
     <div>
       {/* header */}
       <h1> Personal Budget Tracker</h1>
-      <button onClick={clearAllData}>Clear All Records</button>
+      <button
+        onClick={clearAllData}
+        className="bg-emerald-500 text-white border-emerald-500 shadow-sm"
+      >
+        Clear All Records
+      </button>
       <BalanceCard income={income} expense={expense} balance={balance} />
       <TransactionForm onAdd={addTransaction} />
       <CategoryFilter
         filterCategory={filterCategory}
         setFilterCategory={setFilterCategory}
       />
-      <TransactionList />
+      {/* <TransactionList
+        transactions={filteredTransactions}
+        onDelete={deleteTransaction}
+      /> */}
     </div>
   );
 };
