@@ -11,11 +11,19 @@ const TransactionList = ({ transactions, onDelete }) => {
           const isExpense = t.type === "expense";
           return (
             <div key={t.id}>
-              <p>{t.text} </p>
-              <p>
-                <span>{t.category}</span>
-                <span>{t.date}</span>
-              </p>
+              <div>
+                <p>{t.text} </p>
+                <p>
+                  <span>{t.category}</span>
+                  <span>{t.date}</span>
+                </p>
+              </div>
+              <div>
+                <p>
+                  {isExpense ? "-" : "+"}
+                  {t.amount}
+                </p>
+              </div>
             </div>
           );
         })}
