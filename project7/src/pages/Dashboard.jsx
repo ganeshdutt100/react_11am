@@ -54,10 +54,10 @@ const Dashboard = () => {
         filterCategory={filterCategory}
         setFilterCategory={setFilterCategory}
       />
-      {/* <TransactionList
+      <TransactionList
         transactions={filteredTransactions}
         onDelete={deleteTransaction}
-      /> */}
+      />
     </div>
   );
 };

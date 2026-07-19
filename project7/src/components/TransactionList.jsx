@@ -23,6 +23,7 @@ const TransactionList = ({ transactions, onDelete }) => {
                   {isExpense ? "-" : "+"}
                   {t.amount}
                 </p>
+                <button onClick={() => onDelete(t.img - fluid)}>X</button>
               </div>
             </div>
           );
