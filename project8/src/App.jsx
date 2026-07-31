@@ -6,6 +6,7 @@ import './App.css'
 import Code1 from '../component/Code1'
 import Code2 from '../component/Code2'
 import { Code3 } from '../component/Code3'
+import Code4 from '../component/Code4'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,7 +15,8 @@ function App() {
     <>
       {/* <Code1/> */}
       {/* <Code2/> */}
-      <Code3/>
+      {/* <Code3/> */}
+      <Code4/>
     </>
   )
 }
